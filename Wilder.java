@@ -31,15 +31,13 @@ class Wilder{
     
    
     //methode
-    public boolean whoAmI() {
-        if (this.aware ==true){
-            System.out.println("Je m'appelle "+this.getFirstname()+" et je suis aware");
-            return true;
+    public String whoAmI() {
+        if (aware){
+            return "Je m'appelle "+this.getFirstname()+" et je suis aware";
         }
         else {
         
-            System.out.println("Je m'apelle "+this.getFirstname()+" et je ne suis pas aware");
-            return false;
+            return "Je m'apelle "+this.getFirstname()+" et je ne suis pas aware";
         }
        
     }

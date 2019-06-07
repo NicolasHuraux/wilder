@@ -4,8 +4,8 @@ class Classroom {
         Wilder jeanClaude = new Wilder("Jean-Claude", true); 
         Wilder henri = new Wilder("Henri", false);
      
-        jeanClaude.whoAmI();
-        henri.whoAmI();     
+        System.out.println(jeanClaude.whoAmI());
+        System.out.println(henri.whoAmI());      
 
         
 
